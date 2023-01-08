@@ -1,0 +1,4 @@
+1, CAM1-Transept;
+2, CAM3-Organ;
+3, CAM4-Pulpit;
+4, CAM6-Balcony;
