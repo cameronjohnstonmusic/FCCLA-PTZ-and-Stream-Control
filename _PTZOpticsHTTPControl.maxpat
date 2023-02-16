@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 444.0, 79.0, 1145.0, 853.0 ],
+		"rect" : [ 241.0, 85.0, 1145.0, 853.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,61 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-467",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2453.0, 981.0, 92.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.354522500000257, 391.833373999999992, 92.0, 20.0 ],
+					"text" : "Open Auto-chat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-432",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2426.0, 979.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1011.354522500000257, 389.833373999999992, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-427",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2426.0, 1026.0, 519.0, 22.0 ],
+					"text" : "open //Users/soundteamadmin/Documents/GitHub/youtube-chat-from-max/youtube-chat.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-382",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 2426.0, 1058.595654999999624, 33.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"shell" : "(default)"
+					}
+,
+					"text" : "shell"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"id" : "obj-305",
@@ -130,7 +185,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1213.0, 818.0, 50.0, 49.0 ],
-					"text" : "192.168.112.11"
+					"text" : "192.168.112.13"
 				}
 
 			}
@@ -322,7 +377,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1400.486525793884084, 674.833405000000084, 129.0, 35.0 ],
+					"patching_rect" : [ 1400.486525793884084, 683.5, 129.0, 35.0 ],
 					"text" : ";\rmax launchbrowser $1"
 				}
 
@@ -1234,7 +1289,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 371.793267537865177, 375.664763398162904, 50.0, 49.0 ],
-									"text" : "/press/bank/82/ $1"
+									"text" : "/press/bank/83/ $1"
 								}
 
 							}
@@ -1440,7 +1495,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-67",
-									"items" : [ "IAC Driver ProPresenter MIDI", ",", "IAC Driver Lightkey MIDI", ",", "X-Touch INT", ",", "X-Touch EXT", ",", "AudioBox USB 96", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "IAC Driver ProPresenter MIDI", ",", "IAC Driver Lightkey MIDI", ",", "AudioBox USB 96", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4040,7 +4095,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1035.0, 1742.0, 81.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1042.943640000000187, 363.318531499999949, 81.0, 20.0 ],
+					"presentation_rect" : [ 1036.995147500000257, 363.318531499999949, 81.0, 20.0 ],
 					"text" : "Open ATEM"
 				}
 
@@ -4055,7 +4110,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1009.0, 1742.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1016.943640000000187, 363.318531499999949, 24.0, 24.0 ]
+					"presentation_rect" : [ 1010.995147500000257, 363.318531499999949, 24.0, 24.0 ]
 				}
 
 			}
@@ -4364,7 +4419,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1541.0, 1748.0, 81.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1042.943640000000187, 334.386206499999957, 81.0, 20.0 ],
+					"presentation_rect" : [ 1036.995147500000257, 334.386206499999957, 81.0, 20.0 ],
 					"text" : "Open Monitor"
 				}
 
@@ -4379,7 +4434,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1515.0, 1748.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1016.943640000000187, 334.386206499999957, 24.0, 24.0 ]
+					"presentation_rect" : [ 1010.995147500000257, 334.386206499999957, 24.0, 24.0 ]
 				}
 
 			}
@@ -4403,8 +4458,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1383.0, 1788.0, 330.0, 49.0 ],
-					"text" : "open \"/Users/soundteamadmin/OneDrive - First Congregational Church of Los Angeles/Shared Documents/PTZOptics Xbox Mac Max/NDI Monitor.maxpat\""
+					"patching_rect" : [ 1383.0, 1788.0, 262.0, 49.0 ],
+					"text" : "open \"/Users/soundteamadmin/Desktop/PTZOptics Xbox Mac Max/NDI Monitor.maxpat\""
 				}
 
 			}
@@ -4432,7 +4487,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1071.5, 1567.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1046.303015000000187, 305.386206499999957, 63.0, 20.0 ],
+					"presentation_rect" : [ 1040.354522500000257, 305.386206499999957, 63.0, 20.0 ],
 					"text" : "Open X32"
 				}
 
@@ -4459,7 +4514,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1045.049999999999955, 1564.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1016.353015000000141, 305.386206499999957, 24.0, 24.0 ]
+					"presentation_rect" : [ 1010.404522500000212, 305.386206499999957, 24.0, 24.0 ]
 				}
 
 			}
@@ -9199,15 +9254,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-312",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1749.5, 365.836579000000029, 150.0, 60.0 ],
+					"patching_rect" : [ 1749.5, 351.333374000000049, 150.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 745.0, 769.365989142857302, 150.0, 60.0 ],
-					"text" : "MIDI Channel 2 Delays Camera Movements\nMIDI Channel 3 Prevents Angle Changes"
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 745.0, 769.365989142857302, 150.0, 87.0 ],
+					"text" : "MIDI Channel 2 Delays Camera Movements\nMIDI Channel 3 Prevents Angle Changes\nMIDI Channel 4 - Chat Messages"
 				}
 
 			}
@@ -9575,7 +9630,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 489.0, 1257.0, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "5"
 				}
 
 			}
@@ -10986,7 +11041,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 804.600000262260437, 340.399999439716339, 50.0, 22.0 ],
-									"text" : "6"
+									"text" : "13"
 								}
 
 							}
@@ -10998,7 +11053,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 677.300000321865127, 340.399999439716339, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "13"
 								}
 
 							}
@@ -11010,7 +11065,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 575.600000262260437, 340.399999439716339, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "13"
 								}
 
 							}
@@ -11118,7 +11173,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.400000262260392, 333.399999439716339, 50.0, 22.0 ],
-									"text" : "10"
+									"text" : "13"
 								}
 
 							}
@@ -11142,7 +11197,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 201.100000262260437, 333.399999439716339, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "13"
 								}
 
 							}
@@ -11166,7 +11221,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.600000262260437, 333.399999439716339, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "13"
 								}
 
 							}
@@ -11843,7 +11898,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.000006035762794, 325.737597000000278, 106.0, 22.0 ],
-									"text" : "/press/bank/92/6"
+									"text" : "/press/bank/93/1"
 								}
 
 							}
@@ -11915,7 +11970,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 92.0, 277.737597000000278, 114.0, 22.0 ],
-									"text" : "/press/bank/92/ $1"
+									"text" : "/press/bank/93/ $1"
 								}
 
 							}
@@ -13548,7 +13603,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 22.200000000000045, 378.199999988079071, 50.0, 22.0 ],
-									"text" : "6"
+									"text" : "1"
 								}
 
 							}
@@ -15135,7 +15190,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 140.0, 29.5, 22.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -15267,7 +15322,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 140.0, 29.5, 22.0 ],
-									"text" : "0"
+									"text" : "1"
 								}
 
 							}
@@ -16191,7 +16246,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 140.0, 29.5, 22.0 ],
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -16323,7 +16378,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 140.0, 29.5, 22.0 ],
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -25939,7 +25994,7 @@
 					"patching_rect" : [ 1692.25, 590.000122000000147, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 329.0, 650.0, 91.5, 20.0 ],
-					"text" : "Cam 4"
+					"text" : "Cam 5"
 				}
 
 			}
@@ -26193,7 +26248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 687.0, 1364.0, 106.0, 22.0 ],
-					"text" : "/press/bank/82/1"
+					"text" : "/press/bank/83/1"
 				}
 
 			}
@@ -26217,7 +26272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 774.0, 1306.000000596046448, 114.0, 22.0 ],
-					"text" : "/press/bank/82/ $1"
+					"text" : "/press/bank/83/ $1"
 				}
 
 			}
@@ -26964,7 +27019,7 @@
 					"patching_rect" : [ 658.0, 1586.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 394.75, 675.0, 107.0, 20.0 ],
-					"text" : "Cam 4 Preset 1",
+					"text" : "Cam 6 Preset 1",
 					"textjustification" : 1
 				}
 
@@ -27110,7 +27165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.5, 1653.0, 106.0, 22.0 ],
-					"text" : "/press/bank/82/1"
+					"text" : "/press/bank/83/1"
 				}
 
 			}
@@ -27134,7 +27189,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.5, 1598.400000214576721, 114.0, 22.0 ],
-					"text" : "/press/bank/82/ $1"
+					"text" : "/press/bank/83/ $1"
 				}
 
 			}
@@ -30977,7 +31032,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 160.0, 1368.262402999999949, 150.0, 20.0 ],
-					"text" : "Cam 4 Preset 6",
+					"text" : "Cam 5 Preset 1",
 					"textjustification" : 1
 				}
 
@@ -31123,13 +31178,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1266.0, 255.0, 50.0, 76.0 ],
-					"text" : "\"Xbox Wireless Controller\""
+					"patching_rect" : [ 1266.0, 255.0, 50.0, 49.0 ],
+					"text" : "\"Magic Keyboard\""
 				}
 
 			}
@@ -31235,7 +31290,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 927.0, 854.0, 50.0, 22.0 ],
-					"text" : "31861"
+					"text" : "32086"
 				}
 
 			}
@@ -31319,7 +31374,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1471.706732462134823, 477.666869046325928, 103.5, 22.0 ],
-					"text" : "/press/bank/3/3",
+					"text" : "/press/bank/3/5",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -33415,7 +33470,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 473.5, 362.833373999999992, 54.0, 22.0 ],
 					"text" : "CAM4",
-					"textcolor" : [ 0.9375, 0.395508, 0.0, 1.0 ]
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -33462,20 +33517,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1071.5, 1099.262402999999722, 347.0, 49.0 ],
-					"text" : "get http://192.168.112.11/cgi-bin/ptzctrl.cgi?ptzcmd&action&focusspeed"
+					"text" : "get http://192.168.112.13/cgi-bin/ptzctrl.cgi?ptzcmd&action&focusspeed"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 1099.262402999999722, 347.0, 35.0 ],
-					"text" : "get http://192.168.112.11/cgi-bin/ptzctrl.cgi?ptzcmd&zoomstop&0"
+					"patching_rect" : [ 624.0, 1099.262402999999722, 347.0, 49.0 ],
+					"text" : "get http://192.168.112.13/cgi-bin/ptzctrl.cgi?ptzcmd&action&zoomspeed"
 				}
 
 			}
@@ -33931,7 +33986,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1084.5, 570.166778999999906, 254.0, 22.0 ],
+					"patching_rect" : [ 1152.493438999999853, 570.166778999999906, 254.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1003.737610000000132, 239.169922000000042, 120.762389999999868, 22.0 ],
 					"textjustification" : 2
@@ -34611,7 +34666,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.0, 601.278289999999856, 50.0, 22.0 ],
-									"text" : "leftup"
+									"text" : "right"
 								}
 
 							}
@@ -35736,7 +35791,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-36",
-					"items" : [ "Xbox Wireless Controller", ",", "Magic Keyboard", ",", "Magic Keyboard 2", ",", "Magic Mouse 2", ",", "Magic Mouse 2 2", ",", "Magic Keyboard 3", ",", "Magic Mouse 2 3", ",", "Magic Keyboard 4", ",", "Magic Mouse 2 4", ",", "Headset", ",", "Stream Deck XL", ",", "HD Webcam eMeet C980" ],
+					"items" : [ "Magic Keyboard", ",", "Magic Keyboard 2", ",", "Magic Keyboard 3", ",", "Magic Mouse 2", ",", "Magic Mouse 2 2", ",", "Magic Mouse 2 3", ",", "Magic Keyboard 4", ",", "Magic Mouse 2 4", ",", "Headset", ",", "Stream Deck XL", ",", "HD Webcam eMeet C980" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -36230,12 +36285,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.0, 1092.762402999999722, 355.0, 22.0 ],
-					"text" : "get http://192.168.112.11/cgi-bin/ptzctrl.cgi?ptzcmd&ptzstop&1&1"
+					"patching_rect" : [ 138.0, 1092.762402999999722, 355.0, 49.0 ],
+					"text" : "get http://192.168.112.13/cgi-bin/ptzctrl.cgi?ptzcmd&action&panspeed&1"
 				}
 
 			}
@@ -36279,7 +36335,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.25, 994.666625999999951, 61.0, 22.0 ],
-					"text" : "leftup"
+					"text" : "right"
 				}
 
 			}
@@ -36812,13 +36868,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-45",
-									"linecount" : 7,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 274.0, 133.0, 17.0, 20.0 ],
-									"text" : "2.236068"
+									"text" : "0."
 								}
 
 							}
@@ -36831,7 +36886,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 27.0, 290.0, 50.0, 53.0 ],
-									"text" : "33 19 103 89 125 125 125"
+									"text" : "35 20 105 90 125 125 125"
 								}
 
 							}
@@ -38897,7 +38952,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 970.0, 265.0, 100.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 996.103015000000141, 281.953881500000023, 129.5, 115.432324999999963 ],
+					"presentation_rect" : [ 990.154522500000212, 281.953881500000023, 138.896984999999859, 136.879492499999969 ],
 					"text" : "App Control"
 				}
 
@@ -42069,6 +42124,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-382", 0 ],
+					"source" : [ "obj-427", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-409", 0 ],
 					"source" : [ "obj-428", 1 ]
 				}
@@ -42086,6 +42148,13 @@
 					"destination" : [ "obj-41", 0 ],
 					"midpoints" : [ 1207.929795000000468, 113.508621000000005, 1206.183068000000731, 113.508621000000005 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-427", 0 ],
+					"source" : [ "obj-432", 0 ]
 				}
 
 			}
@@ -44878,7 +44947,7 @@
 			}
 , 			{
 				"name" : "buttontomenu",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -44891,42 +44960,42 @@
 			}
 , 			{
 				"name" : "googlesheets.js",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "googlesheets.maxpat",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "googlesheets2.js",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputxboxone.maxpat",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ip_address_shatto.txt",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "menutobutton",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -44939,7 +45008,7 @@
 			}
 , 			{
 				"name" : "programCam.txt",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -44952,7 +45021,7 @@
 			}
 , 			{
 				"name" : "scripthiding_me.maxpat",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -44963,7 +45032,7 @@
 			}
 , 			{
 				"name" : "xboxoneillustration.png",
-				"bootpath" : "~/OneDrive - First Congregational Church of Los Angeles/PTZOptics Xbox Mac Max",
+				"bootpath" : "~/Desktop/PTZOptics Xbox Mac Max",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
@@ -44977,10 +45046,10 @@
 				"boxes" : [ "obj-301", "obj-291", "obj-688", "obj-691", "obj-684", "obj-681", "obj-678", "obj-679", "obj-680", "obj-667", "obj-666", "obj-665", "obj-338", "obj-372" ]
 			}
 , 			{
-				"boxes" : [ "obj-752", "obj-755", "obj-763", "obj-761", "obj-773", "obj-769", "obj-780" ]
+				"boxes" : [ "obj-774", "obj-771" ]
 			}
 , 			{
-				"boxes" : [ "obj-774", "obj-771" ]
+				"boxes" : [ "obj-467", "obj-432", "obj-773", "obj-769", "obj-763", "obj-761", "obj-752", "obj-755", "obj-780" ]
 			}
  ]
 	}
