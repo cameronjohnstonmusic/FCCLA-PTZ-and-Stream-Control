@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 22.0, 54.0, 397.0, 189.0 ],
+		"rect" : [ 63.0, 54.0, 374.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -274,7 +274,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1425.0, 752.0, 50.0, 22.0 ],
-					"text" : "10"
+					"text" : "3"
 				}
 
 			}
@@ -322,7 +322,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 915.0, 752.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -800,7 +800,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 60.0, 80.0, 35.0 ]
+					"patching_rect" : [ 240.0, 47.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -1700,7 +1700,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"items" : [ "SANCTUARY PTZ (Transept, 192.168.112.13)", ",", "SANCTUARY PTZ (Pulpit, 192.168.112.11)", ",", "SANCTUARY PTZ (Balcony, 192.168.112.10)", ",", "FCCLA-MACMINI-01.LOCAL (ProPresenter)", ",", "FCC-LAP01 (SANCTUARY PTZ (Balcony, 192.168.112.10))", ",", "FCC-LAP01 (FCCLA-MACMINI-01.LOCAL (ProPresenter))", ",", "FCC-LAP01 (USB Video)", ",", "FCC-LAP01 (Intel UHD Graphics 620 1)" ],
+					"items" : [ "SANCTUARY PTZ (Pulpit, 192.168.112.11)", ",", "SANCTUARY PTZ (Transept, 192.168.112.13)", ",", "SANCTUARY PTZ (Balcony, 192.168.112.10)", ",", "FCCLA-MACMINI-01.LOCAL (ProPresenter)", ",", "FCC-LAP01 (SANCTUARY PTZ (Balcony, 192.168.112.10))", ",", "FCC-LAP01 (FCCLA-MACMINI-01.LOCAL (ProPresenter))", ",", "FCC-LAP01 (USB Video)", ",", "FCC-LAP01 (Studio Monitor 1)", ",", "FCC-LAP01 (Intel UHD Graphics 620 1)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2262,6 +2262,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -2380,6 +2387,13 @@
 					"destination" : [ "obj-73", 1 ],
 					"order" : 0,
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-77", 0 ]
 				}
 
 			}
@@ -2518,20 +2532,6 @@
 					"destination" : [ "obj-77", 0 ],
 					"order" : 0,
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-77", 0 ]
 				}
 
 			}
