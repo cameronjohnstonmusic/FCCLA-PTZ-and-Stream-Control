@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^19.7.2",
+    "qrcode": "^1.5.1",
+    "request": "^2.88.2"
+  },
+  "name": "fccla_qr_code_generator",
+  "description": "A way to generate a qr code in max and display it in a jit.world context. Includes automatic text generation. Take a look at the help file on how to use it",
+  "version": "1.0.0",
+  "main": "qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronjohnstonmusic/FCCLA-PTZ-and-Stream-Control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cameronjohnstonmusic/FCCLA-PTZ-and-Stream-Control/issues"
+  },
+  "homepage": "https://github.com/cameronjohnstonmusic/FCCLA-PTZ-and-Stream-Control#readme"
+}
