@@ -1,0 +1,9 @@
+npm ERR! code ENOTEMPTY
+npm ERR! syscall rename
+npm ERR! path /Users/streamdepartment/Documents/GitHub/FCCLA-PTZ-and-Stream-Control/node_modules/qrcode
+npm ERR! dest /Users/streamdepartment/Documents/GitHub/FCCLA-PTZ-and-Stream-Control/node_modules/.qrcode-4FXxSYqh
+npm ERR! errno -66
+npm ERR! ENOTEMPTY: directory not empty, rename '/Users/streamdepartment/Documents/GitHub/FCCLA-PTZ-and-Stream-Control/node_modules/qrcode' -> '/Users/streamdepartment/Documents/GitHub/FCCLA-PTZ-and-Stream-Control/node_modules/.qrcode-4FXxSYqh'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/streamdepartment/.npm/_logs/2023-11-19T17_44_51_792Z-debug.log

@@ -2,7 +2,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "fs": "^0.0.1-security",
-    "puppeteer": "^19.7.2",
+    "puppeteer": "^19.11.1",
     "puppeteer-core": "^19.7.2",
     "qrcode": "^1.5.1",
     "request": "^2.88.2"
